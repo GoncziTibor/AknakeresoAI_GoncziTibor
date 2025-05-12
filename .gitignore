@@ -25,3 +25,5 @@ Thumbs.db
 *.jar
 *.war
 *.ear
+
+*.txt

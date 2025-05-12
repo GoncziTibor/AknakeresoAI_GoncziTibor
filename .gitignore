@@ -1,0 +1,27 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Maven / Gradle build output
+/target/
+/build/
+
+# OS-specifikus fájlok
+.DS_Store
+Thumbs.db
+
+# Log fájlok
+*.log
+
+# IDE cache és temp fájlok
+*.class
+*.swp
+*.swo
+
+# Biztonsági mentések
+*~
+
+# Java általános
+*.jar
+*.war
+*.ear

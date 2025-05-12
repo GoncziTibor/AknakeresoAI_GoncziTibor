@@ -1,0 +1,6 @@
+org\example\Main.class
+org\example\model\MinimaxAI.class
+org\example\controller\GameController.class
+org\example\model\GameState.class
+org\example\controller\EditorController.class
+org\example\model\Move.class

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.controller.EditorController">
+    <top>
+        <HBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Label text="Felhasználónév:"/>
+            <TextField fx:id="usernameField" promptText="pl. jatekos1"/>
+            <Button text="Mentés" onAction="#handleSave"/>
+            <Button text="Betöltés" onAction="#handleLoad"/>
+            <Button text="Játék indítása" onAction="#startGame"/>
+        </HBox>
+    </top>
+
+    <center>
+        <GridPane fx:id="grid" hgap="2" vgap="2">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+        </GridPane>
+    </center>
+</BorderPane>
